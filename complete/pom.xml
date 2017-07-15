@@ -5,7 +5,7 @@
 
 	<groupId>com.thinkcloudgroup</groupId>
 	<artifactId>com-thinkcloudgroup-shopapp</artifactId>
-	<version>0.1.1</version>
+	<version>0.1.2</version>
 	<packaging>war</packaging>
 
 	<!-- Inherit defaults from Spring Boot -->
@@ -67,11 +67,6 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
-		
-		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
 			<scope>test</scope>
@@ -86,11 +81,6 @@
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.8.5</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
 		<dependency>
@@ -129,10 +119,6 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-		</dependency>
 		
 		<dependency>
 			<groupId>org.springframework.security</groupId>
